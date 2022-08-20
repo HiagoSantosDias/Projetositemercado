@@ -1,0 +1,114 @@
+@media only screen and (max-width: 768px) {
+    
+    body {
+       width: 230%;
+    }
+    #navbar {
+        height: 70px;
+    }
+
+    #navbar-container{
+        text-align: center;
+        height: 140px;
+        margin: auto;
+        align-items: center;
+    }
+
+    #navbar-container h1{
+        text-align: center;
+    }
+    
+    #navbar-itens li{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify center;
+        font-size: 11px;
+        height: 54px;
+    }
+
+    #navbar-itens a{
+        padding-left: 5px;
+        font-family: cursive;
+        text-align: center;
+    }
+
+    #navbar-container img{
+        margin: auto;
+    }
+    
+    #clients-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 15px;
+    }
+
+    #clients-container img{
+        height: 80%;
+        border-radius: 40px;
+        margin-bottom: 100px;
+    }
+
+    .cf{
+        padding: 50px;
+}
+    }
+
+    #cf-container{
+        padding: 10px;
+        text-align: center;
+        height: 620px;
+    }
+
+    #ma-container{
+        text-align: center;
+    }
+
+    #gr-container{
+        text-align: center;
+    }
+
+    #te{
+        font-size: small;
+        text-align: center;
+    }
+
+    #do-container{
+        margin: auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #be-container{
+        padding: 5px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    #hl-container{
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+    
+    #vl-container{
+        text-align: center;
+        margin: auto;
+    }
+
+    #fr{
+        text-align: center;
+    }
+
+    section #pe{
+        margin: auto;
+    }
+
+
+    #pe-container{
+        text-align: center;
+    }
+
+
+#client-contanier {
+    grid-template-columns: repeat(4,2fr);
+}

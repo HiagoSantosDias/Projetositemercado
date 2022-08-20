@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #111;
+    color: #eee;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #000;
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+#navbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+
+#navbar-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+    padding: 6px;
+    background: -webkit-linear-gradient(white,rgb(76, 144, 175),rgb(15, 15, 172),rgb(2, 2, 56))
+}
+
+#navbar-container img {
+    background: white;
+    border-radius: 30%;
+    width: 5rem;
+}
+
+#navbar-itens {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#navbar-itens li {
+    font-size: 0.7rem;
+    background: -webkit-linear-gradient(rgb(236, 230, 230), white);
+    min-width: 9%; 
+    height: 2.3rem;
+}
+
+#navbar-itens a {
+    border: solid 0.5px rgb(1, 1, 51);
+    color: rgb(7, 7, 99);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+#navbar-itens a:hover{
+    cursor: pointer;
+    color: rgb(199, 12, 12);
+}
+
+.logo{
+    padding: 30px;
+    width: 200vh;
+    padding-right: 30%;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#showcase {
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(../imagens/supermercado.jpg) no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+
+
+#showcase-container {
+    text-align: center;
+}
+
+#showcase-container h2 {
+    font-size: 2.5rem;
+}
+
+#showcase-container p {
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+
+#clients {
+    width: 100%;
+    background: rgb(0, 174, 255);
+    color: #111;
+    padding: 50px;
+}
+
+#clients-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 15px;
+}
+
+.client {
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    border: solid black;
+    background: white;
+}
+
+#cf{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#cf h1 {
+    font-weight: bold;
+}
+
+#cf p {
+    font-style: italic;
+}
+
+#cf img {
+    width: 3.5rem;
+}
+
+#cf-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+.cf {
+    flex-direction: column;
+    background: rgb(41, 0, 107);
+    padding: 30px;
+    border-radius: 42px;
+    min-width: 25%;
+	height: 50%;
+	margin: 55px;
+}
+
+#ma{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#ma h1 {
+    font-weight: bold;
+}
+
+#ma p {
+    font-style: italic;
+}
+
+#ma img {
+    width: 5.5rem;
+}
+
+#ma-container {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    padding: 25px;
+	flex-wrap: nowrap;
+	
+}
+
+#gr{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#gr h1 {
+    font-weight: bold;
+}
+
+#gr p {
+    font-style: italic;
+}
+
+#gr img {
+    width: 5.5rem;
+}
+
+#gr-container {
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    display: flex;
+    padding: 25px;
+	flex-wrap: nowrap;
+	
+}
+
+#te{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#te h1 {
+    font-weight: bold;
+}
+
+#te p {
+    font-style: italic;
+}
+
+#te img {
+    width: 3.5rem;
+}
+
+#te-container {
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	
+}
+
+#do{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#do h1 {
+    font-weight: bold;
+}
+
+#do p {
+    font-style: italic;
+}
+
+#do img {
+    width: 3.5rem;
+}
+
+#do-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#be{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#be h1 {
+    font-weight: bold;
+}
+
+#be p {
+    font-style: italic;
+}
+
+#be img {
+    width: 3.5rem;
+}
+
+#be-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#hl{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#hl h1 {
+    font-weight: bold;
+}
+
+#hl p {
+    font-style: italic;
+}
+
+#hl img {
+    width: 3.5rem;
+}
+
+#hl-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#vl{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#vl h1 {
+    font-weight: bold;
+}
+
+#vl p {
+    font-style: italic;
+}
+
+#vl img {
+    width: 3.5rem;
+}
+
+#vl-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#fr{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#fr h1 {
+    font-weight: bold;
+}
+
+#fr p {
+    font-style: italic;
+}
+
+#fr img {
+    width: 3.5rem;
+}
+
+#fr-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#pe{
+    width: 100%;
+    background: rgb(17, 1, 71);
+    color: #eee;
+    padding: 50px;
+}
+
+#pe h1 {
+    font-weight: bold;
+}
+
+#pe p {
+    font-style: italic;
+}
+
+#pe img {
+    width: 3.5rem;
+}
+
+#pe-container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 15px;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+}
+
+#opinar{
+    font-size: 200%;
+    font-family: serif;
+    text-align: center;
+    border: 2px solid #000;
+    padding-top: 5px;
+    background-color: rgb(28, 75, 97);
+    color: #fff;
+    text-align: center;
+}
+
+#opinar textarea{
+    text-align: center;
+    width: 60%;
+}
+
+#nomes{
+    font-family: Arial;
+    background-color: rgb(52, 148, 127);
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+button{
+    width: 5rem;
+    height: 2rem;
+}
